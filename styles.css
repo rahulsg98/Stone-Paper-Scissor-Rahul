@@ -77,13 +77,12 @@ html{
     align-items: center;
 }
 
-
 .game-section .game{
-    margin-top: 100px;
+    margin-top: 90px;
     display: flex;
     flex-direction: row;
     gap: 30px;
-    margin-left: 30%;
+    margin-left: 33%;
 }
 
 .game-section .game div{
@@ -99,7 +98,6 @@ html{
     filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
     cursor: pointer;
     z-index: 1;
-    
 }
 
 .game-section .game div:hover{
@@ -123,7 +121,7 @@ html{
 .game-section .stone-line{
     width: 200px;
     border: 15px solid rgba(0, 0, 0, 0.64);
-    margin-top: -300px;
+    margin-top: -280px;
     margin-left: 580px;
 }
 
