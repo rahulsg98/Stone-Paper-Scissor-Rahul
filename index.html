@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stone | Paper | Scissor</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ea7c5a9b0b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="template">
@@ -19,33 +20,73 @@
         <div class="score">
             <div class="comp-score">
                 <p class="score-head">COMPUTER <br> <span>SCORE</span></p>
-                <p> 0 </p>
+                <p id="comp-score-value"> 0 </p>
             </div>  
             <div class="your-score">
                 <p class="score-head">YOUR <br> <span>SCORE</span></p>
-                <p> 0 </p>
+                <p id="user-score-value"> 0 </p>
             </div>
         </div>
     </div>
 
-    <div class="game-section">
-        <div class="game">
-            <div class="stone">
+    <div class="game-section" id="game-section">
+        <div class="game" id="game">
+            <div class="stone" id="stone">
                 <img src="./images/stone.png" alt="stone">
             </div>
-            <div class="paper">
+            <div class="paper" id="paper">
                 <img src="./images/paper.png" alt="paper">
             </div>
-            <div class="scissor">
+            <div class="scissor" id="scissor">
                 <img src="./images/scissor.png" alt="scissor">
             </div>
         </div>
 
-        <div class="line-section">
+        <div class="line-section" id="line-section">
             <div class="stone-line"></div>
             <div class="paper-line"></div>
             <div class="scissor-line"></div>
         </div>
     </div>
+
+    <div class="result-section" id="result-section">
+        <div class="user-section">
+            <p>YOU PICKED</p>
+            <div class="user-choice" id="user-choice">
+                <img src="" id="user-image">
+            </div>
+        </div>
+        <div class="result-status">
+            <h1 id="status">YOU LOST</h1>
+            <h2 id="from-whom">AGAINST PC</h2>
+            <button id="play-again">PLAY AGAIN</button>
+        </div>
+        <div class="comp-section">
+            <p>PC PICKED</p>
+            <div class="pc-choice" id="pc-choice">
+                <img src="" id="pc-image">
+            </div>
+        </div>
+    </div>
+
+    <div class="rules" id="rules">
+        <div class="rules-list" id="rules-list">
+            <h1>Game Rules</h1>
+            <ul>
+                <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                <li>If both players lay down the same hand, each player lays down another hand</li>
+            </ul>
+        </div>
+        <div class="rules-btn">
+            <button id = "btn" onclick="hide()">RULES</button>
+        </div>
+    </div>
+    <div class="icon" id="icon">
+        <i class="fa-regular fa-circle-xmark fa-3x"></i>
+    </div>
+
+    <script src="app.js"></script>
 </body>
 </html>
