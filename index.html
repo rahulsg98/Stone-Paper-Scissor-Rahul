@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/ea7c5a9b0b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="template">
+    <div class="template" id="template">
         <div class="head">
             <p>ROCK</p>
             <p>PAPER</p>
@@ -49,6 +49,22 @@
         </div>
     </div>
 
+    <div class="shade1" id="shade1">
+        <div class="back1" id="back1"></div>
+        <div class="back2" id="back2"></div>
+        <div class="back3" id="back3"></div>
+        <div class="back4" id="back4"></div>
+    </div>
+
+    <div class="shade2" id="shade2">
+        <div class="back-1" id="back-1"></div>
+        <div class="back-2" id="back-2"></div>
+        <div class="back-3" id="back-3"></div>
+        <div class="back-4" id="back-4"></div>
+    </div>
+
+
+
     <div class="result-section" id="result-section">
         <div class="user-section">
             <p>YOU PICKED</p>
@@ -69,6 +85,32 @@
         </div>
     </div>
 
+    <div class="celebrate-section" id="celebrate-section">
+        <div class="star-cup" id="star-cup">
+            <div class="star-section">
+                <img src="./images/star.png" id="star-1">
+                <img src="./images/star.png" id="star-2">
+                <img src="./images/star.png" id="star-3">
+                <img src="./images/star.png" id="star-4">
+                <img src="./images/star.png" id="star-5">
+                <img src="./images/star.png" id="star-6">
+                <img src="./images/star.png" id="star-7">
+                <img src="./images/star.png" id="star-8">
+            </div>
+            <div class="cup-section">
+                <img src="./images/cup.png" alt="cup">
+            </div>
+        </div>
+
+        <div class="celebration-message">
+            <h1 id="cele-message1">HURRY!!</h1>
+            <p id="cele-message2">YOU WON THE GAME</p>
+            <button id="cele-play-again">PLAY AGAIN</button>
+        </div>
+
+
+    </div>
+
     <div class="rules" id="rules">
         <div class="rules-list" id="rules-list">
             <h1>Game Rules</h1>
@@ -80,7 +122,10 @@
             </ul>
         </div>
         <div class="rules-btn">
-            <button id = "btn" onclick="hide()">RULES</button>
+            <button id = "btn">RULES</button>
+        </div>
+        <div class="next-btn">
+            <button id = "next-button">NEXT</button>
         </div>
     </div>
     <div class="icon" id="icon">
