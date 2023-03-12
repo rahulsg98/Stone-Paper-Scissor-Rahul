@@ -141,24 +141,23 @@ html{
     margin-left: 670px;
 }
 
-.rules{
-    margin-left: 75%;
-    margin-top: -230px;
-}
-
 .rules .rules-list{
+    box-sizing: border-box;
     font-family: 'Roboto';
+    position: absolute;
+    width: 300px;
+    height: 380px;
+    left: 1034px;
+    top: 190px;
+    color: #FFFFFF;
     background: #004429;
     border: 7px solid #FFFFFF;
     border-radius: 13px;
-    width: 250px;
-    height: 300px;
     padding: 25px;
-    color: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    z-index: 7;
 }
 .rules .rules-list h1{
     margin-bottom: 10px;
@@ -173,20 +172,45 @@ html{
 }
 
 .rules-btn button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 119px;
+    height: 40px;
+    left: 1210px;
+    top: 580px;
+    cursor: pointer;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
     font-size: 21px;
+    line-height: 25px;
     letter-spacing: 0.1em;
     color: #FFFFFF;
+    background-color: #8CC461;
+}
+
+.next-btn button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 119px;
+    height: 40px;
+    left: 1080px;
+    top: 580px;
+    cursor: pointer;
     border: 2px solid #FFFFFF;
     border-radius: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
     background-color: #8CC461;
-    width: 120px;
-    padding: 5px; 
-    margin-top: 15px;
-    margin-left: 190px;
-    cursor: pointer;
 }
 
 button:hover{
@@ -201,14 +225,18 @@ i{
 }
 
 .icon {
-    margin-top: -428px;
-    margin-left: 95%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1300px;
+    top: 170px;
     cursor: pointer;
+    z-index: 8;
 }
 
 .result-section{
     width: 600px;
-    margin-top: -220px;
+    margin-top: -210px;
     margin-left: 370px;
     display: flex;
     justify-content: space-around;
@@ -235,7 +263,7 @@ i{
     border-radius: 50%;
     filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
     cursor: pointer;
-    z-index: 1;
+    z-index: 5;
 }
 
 .result-section .result-status{
@@ -255,6 +283,7 @@ i{
     letter-spacing: 0.1em;
 
     color: #FFFFFF;
+    z-index: 6;
 }
 
 .result-section h1{
@@ -305,3 +334,211 @@ i{
 .result-section .comp-section{
     margin-right: -50px;
 }
+
+.celebrate-section{
+    z-index: 2;
+}
+
+#star-1{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 503px;
+    top: 86px;
+}
+#star-2{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 610px;
+    top: 122px;
+}
+#star-3{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 830px;
+    top: 173px;
+}
+#star-4{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 496px;
+    top: 351px;
+}
+#star-5{
+    position: absolute;
+    width: 68px;
+    height: 68px;
+    left: 500px;
+    top: 137px;
+}
+
+#star-6{
+    position: absolute;
+    width: 103px;
+    height: 103px;
+    left: 730px;
+    top: 86px;
+}
+#star-7{
+    position: absolute;
+    width: 115px;
+    height: 115px;
+    left: 388px;
+    top: 198px;
+}
+#star-8{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 762px;
+    top: 246px;
+}
+
+.cup-section img{
+    position: absolute;
+    left: 41.52%;
+    right: 40.83%;
+    top: 28.61%;
+    bottom: 47.15%;
+}
+
+.celebration-message{
+    margin-top: -80px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#cele-message1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 91px;
+    line-height: 107px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+#cele-message2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+}
+
+#cele-play-again{
+    width: 140px;
+    padding: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    margin-top: 30px;
+    color: #6B6B6B;
+    background: #FFFFFF;
+    border-color: #fff;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+.back1{
+    position: absolute;
+    left: 304px;
+    top: 308px;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: #2e9a25;
+    z-index: 4;
+  }
+  
+  .back2{
+    position: absolute;
+    left: 289px;
+    top: 292px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #45ac3d;
+    z-index: 3;
+  }
+  
+  .back3{
+    position: absolute;
+    left: 274px;
+    top: 278px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #59c850;
+    z-index: 2;
+  }
+  
+  .back4{
+    position: absolute;
+    left: 248px;
+    top: 252px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #8fee87;
+    z-index: 1;
+  }
+
+
+  .back-1{
+    position: absolute;
+    left: 847px;
+    top: 308px;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    background-color: #2e9a25;
+    z-index: 4;
+  }
+  
+  .back-2{
+    position: absolute;
+    left: 832px;
+    top: 292px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: #45ac3d;
+    z-index: 3;
+  }
+  
+  .back-3{
+    position: absolute;
+    left: 817px;
+    top: 278px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #59c850;
+    z-index: 2;
+  }
+  
+  .back-4{
+    position: absolute;
+    left: 791px;
+    top: 252px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #8fee87;
+    z-index: 1;
+  }
