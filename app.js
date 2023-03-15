@@ -134,20 +134,6 @@ function Lost(){
 function Tie(){
     statusText.innerText = "TIE UP";
     playAgain.innerText = "REPLAY";
-    // compCount++;
-    // userCount++;
-
-    //userCount = localStorage.getItem("userCount");
-    userCount = userCount ? parseInt(userCount) + 1 : 1;
-    localStorage.setItem("userCount", userCount);
-
-    //compCount = localStorage.getItem("compCount");
-    compCount = compCount ? parseInt(compCount) + 1 : 1;
-    localStorage.setItem("compCount", compCount);
-
-    compScore.innerText = compCount;
-    userScore.innerText = userCount;
-
     ruleBtn.style.left = "1210px";
 }
 
